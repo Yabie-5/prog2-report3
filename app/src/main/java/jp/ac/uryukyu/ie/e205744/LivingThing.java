@@ -75,6 +75,8 @@ public class LivingThing {
             dead = true;
             System.out.printf("%sは倒れた。\n", getName());
         }
-    } 
+    }
+
+	public void attackWithWeponSkill(LivingThing enemy) {} 
    
 }
