@@ -30,7 +30,7 @@ public class Enemy {
 
     /**
      * 敵の名前を教えてくれるgetterメソッド。
-     * @param name 敵の名
+     * @return 敵の名前を返す 
      */
     public String getName(){
         return this.name;
@@ -38,7 +38,7 @@ public class Enemy {
 
     /**
      * 敵のHPを教えてくれるgetterメソッド。
-     * @param hitPoint 敵のHP
+     * @return 敵のHPを返す
      */
     public int gethitPoint(){
         return this.hitPoint;
@@ -46,7 +46,7 @@ public class Enemy {
 
     /**
      * 敵の攻撃力を教えてくれるgetterメソッド。
-     * @param attack　敵の攻撃力
+     * @return 敵の攻撃力を返す
      */
     public int getAttack(){
         return this.attack;
@@ -54,7 +54,7 @@ public class Enemy {
 
     /**
      * 敵の状態（生死）を教えてくれるgetterメソッド。
-     * @param dead 敵の状態(生死)
+     * @return 敵の状態（生死）を返す
      */
     public boolean getDead(){
         return this.dead;

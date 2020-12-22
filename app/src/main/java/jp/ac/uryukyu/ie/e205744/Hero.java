@@ -30,7 +30,7 @@ public class Hero {
 
     /**
      * ヒーローの名前を教えてくれるgetterメソッド。
-     * @param name ヒーロー名
+     * @return ヒーローの名前を返す
      */
     public String getName(){
         return this.name;
@@ -38,7 +38,7 @@ public class Hero {
 
     /**
      * ヒーローのHPを教えてくれるgetterメソッド。
-     * @param hitPoint ヒーロのHP
+     * @return ヒーローのHPを返す
      */
     public int gethitPoint(){
         return this.hitPoint;
@@ -46,7 +46,7 @@ public class Hero {
 
     /**
      * ヒーローの攻撃力を教えてくれるgetterメソッド。
-     * @param attack　ヒーローの攻撃力
+     * @return ヒーローの攻撃力を返す
      */
     public int getAttack(){
         return this.attack;
@@ -54,7 +54,7 @@ public class Hero {
 
     /**
     * ヒーローの状態（生死）を教えてくれるgetterメソッド。
-    * @param dead ヒーローの状態(生死)
+    * @return ヒーローの状態（生死）を返す
     */
     public boolean getDead(){
         return this.dead;
