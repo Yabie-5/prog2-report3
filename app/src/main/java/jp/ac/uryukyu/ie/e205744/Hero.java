@@ -27,7 +27,7 @@ public class Hero {
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
-    
+
     /**
      * ヒーローの名前を教えてくれるgetterメソッド。
      * @param name ヒーロー名
@@ -45,9 +45,9 @@ public class Hero {
     } 
 
     /**
-    * ヒーローの攻撃力を教えてくれるgetterメソッド。
-    * @param attack　ヒーローの攻撃力
-    */
+     * ヒーローの攻撃力を教えてくれるgetterメソッド。
+     * @param attack　ヒーローの攻撃力
+     */
     public int getAttack(){
         return this.attack;
     }

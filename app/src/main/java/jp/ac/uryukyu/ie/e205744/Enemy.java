@@ -27,7 +27,7 @@ public class Enemy {
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
-    
+
     /**
      * 敵の名前を教えてくれるgetterメソッド。
      * @param name 敵の名
@@ -36,7 +36,7 @@ public class Enemy {
         return this.name;
     }
 
-     /**
+    /**
      * 敵のHPを教えてくれるgetterメソッド。
      * @param hitPoint 敵のHP
      */
@@ -45,17 +45,17 @@ public class Enemy {
     }
 
     /**
-    * 敵の攻撃力を教えてくれるgetterメソッド。
-    * @param attack　敵の攻撃力
-    */
+     * 敵の攻撃力を教えてくれるgetterメソッド。
+     * @param attack　敵の攻撃力
+     */
     public int getAttack(){
         return this.attack;
     }
 
     /**
-    * 敵の状態（生死）を教えてくれるgetterメソッド。
-    * @param dead 敵の状態(生死)
-    */
+     * 敵の状態（生死）を教えてくれるgetterメソッド。
+     * @param dead 敵の状態(生死)
+     */
     public boolean getDead(){
         return this.dead;
     }
