@@ -27,15 +27,35 @@ public class Hero {
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
+    
+    /**
+     * ヒーローの名前を教えてくれるgetterメソッド。
+     * @param name ヒーロー名
+     */
     public String getName(){
         return this.name;
     }
+
+    /**
+     * ヒーローのHPを教えてくれるgetterメソッド。
+     * @param hitPoint ヒーロのHP
+     */
     public int gethitPoint(){
         return this.hitPoint;
-    }
+    } 
+
+    /**
+    * ヒーローの攻撃力を教えてくれるgetterメソッド。
+    * @param attack　ヒーローの攻撃力
+    */
     public int getAttack(){
         return this.attack;
     }
+
+    /**
+    * ヒーローの状態（生死）を教えてくれるgetterメソッド。
+    * @param dead ヒーローの状態(生死)
+    */
     public boolean getDead(){
         return this.dead;
     }
